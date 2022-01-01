@@ -4,7 +4,7 @@ import geopandas as gpd
 from rasterstats import zonal_stats
 import pandas as pd
 
-allraster = glob("./*tif")
+allraster = glob(".modis-ndvi/*tif")
 
 listcol =[]
 for i in allraster:
